@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:contest="com.example.sirisha.moviedbapp.MyAdapter">
+
+    <item
+        android:id="@+id/popular"
+        android:title="@string/sort"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/rating"
+        android:title="@string/Top_rated"
+        app:showAsAction="never" />
+
+</menu>
